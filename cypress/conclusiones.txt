@@ -1,0 +1,3 @@
+Los inputs del formulario no poseen validaciones para el tipo de dato permitido, en caso de agregarse, deben añadirse los casos de prueba necesarios. 
+Fue necesario incluir una espera implícita para poder hacer click en el botón de Ok al finalizar la compra, la aplicación no permitió hacerlo con una espera explícita.
+Como mejora es necesario agregar id a los elementos para localizarlos de manera más óptima. 
