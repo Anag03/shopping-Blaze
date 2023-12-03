@@ -1,5 +1,5 @@
 # shopping-Blaze
-Automated tests for blaze web
+Automated tests for blaze web and api tests
 
 1. Install nodejs
 2. Install cypress library and the faker library, use npm install 

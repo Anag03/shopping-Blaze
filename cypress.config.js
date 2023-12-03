@@ -6,5 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     base_url: 'https://www.demoblaze.com/',
+    api_base_url: 'https://api.demoblaze.com',
   },
 });

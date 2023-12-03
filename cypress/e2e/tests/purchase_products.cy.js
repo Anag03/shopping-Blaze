@@ -57,6 +57,7 @@ describe('complete the purchase', () => {
         paymentFormElements.paymentBtn.click();
         purchaseConrfimationElements.modalTitle.should('be.visible');
         purchaseConrfimationElements.greenCheckMark.should('exist');
+        purchaseConrfimationElements.getSucessMsg.should('exist');
         purchaseConrfimationElements.okBtn.click();
         cy.url().should('include', '/index.html');
 

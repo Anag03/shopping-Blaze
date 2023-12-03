@@ -13,4 +13,8 @@ export default class PurchaseConrfimationElements {
         return cy.contains('button', 'OK');
 
     }
+
+    get getSucessMsg() {
+        return cy.contains('h2', 'Thank you for your purchase');
+    }
 }

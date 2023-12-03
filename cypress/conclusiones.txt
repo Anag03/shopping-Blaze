@@ -1,3 +1,11 @@
+Tests E2E
+
 Los inputs del formulario no poseen validaciones para el tipo de dato permitido, en caso de agregarse, deben añadirse los casos de prueba necesarios. 
 Fue necesario incluir una espera implícita para poder hacer click en el botón de Ok al finalizar la compra, la aplicación no permitió hacerlo con una espera explícita.
 Como mejora es necesario agregar id a los elementos para localizarlos de manera más óptima. 
+
+
+API Tests
+
+La API retorna el mismo código 200 aún cuando existe un error de registro o autenticación, esto debe ser revisado por el equipo de desarrollo y cambiado, para utilizar los códigos correctos.
+Se deben actualizar los tests una vez se hagan los cambios en el API 
